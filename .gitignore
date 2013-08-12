@@ -1,20 +1,115 @@
-# built application files
-*.apk
-*.ap_
+syntax: glob
 
-# files for the dex VM
-*.dex
+*.txt
+*.notes
+ABSTRACT/
+build.properties
+codesign.properties
 
-# Java class files
+### Operating Systems
+
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+._*
+Thumbs.db
+
+### Compiled / Binary
+*.com
 *.class
+*.dll
+*.exe
+*.o
+*.pyc
+*.so
 
-# generated files
-bin/
-gen/
-
-# Local configuration file (sdk path, etc)
+# Logs / Data
+*.log
+*.sql
+*.sqlite
 local.properties
 
-# Eclipse project files
+### Packages - extract and checkin raw; let git handle compression.
+
+*.7z
+*.apk
+*.dmg
+*.gz
+*.iso
+*.ipa
+*.jar
+*.rar
+*.tar
+*.war
+*.zip
+
+
+
+### Application-Specific
+
+## Android
+bin/
+gen/
+proguard/
+*.apk
+*.ap_
+*.dex
+
+# Android Build Tools
+local.properties
+
+## Eclipse
 .classpath
 .project
+.settings
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+## xcode
+*.swp
+*~.nib
+build/
+*.pbxuser
+*.perspective
+*.perspectivev3
+xcuserdata
+
+# RoR
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/
+
+## Visual Studio
+*.csproj.user
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.dll
+*.lib
+*.sbr
+_ReSharper.*
+*.resharper
+*.resharper.user
+
