@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="swidget_name">Swidget</string>
+    <string name="lib_app_name">CodeShane Library App</string>
+    <string name="seekbar_title">Seekbar Title</string>
+    <string name="seekbar_dialog_title">Seekbar Dialog Title</string>
+    <string name="seekbar_summary">Seekbar Summary</string>
+    <string name="timepref_title">Time Preference Title</string>
+
+</resources>

@@ -1,0 +1,99 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codeshane.andlib"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="17" />
+
+    <!--
+         Application definitions are currently ignored by the Android SDK.
+        They currently serve as examples, though future versions of the SDK
+        are expected to support importing them.
+        Correction: in 2013-05 I noticed these were being imported, since
+        the SimpleGradientPickerActivity is being put on the launcher menu.
+        Sherlock.Light.DarkActionBar
+    -->
+    <!--
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/lib_app_name"
+        android:theme="@android:style/Theme.Black" >
+        <activity
+            android:name="com.chalup.markdownviewer.MarkdownActivity"
+            android:label="@string/markdown_app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="*"
+                    android:mimeType="*/*"
+                    android:pathPattern=".*.md"
+                    android:scheme="file" />
+                <data
+                    android:host="*"
+                    android:mimeType="*/*"
+                    android:pathPattern=".*.md.txt"
+                    android:scheme="file" />
+                <data
+                    android:host="*"
+                    android:mimeType="*/*"
+                    android:pathPattern=".*.markdown"
+                    android:scheme="file" />
+            </intent-filter>
+        </activity>
+    </application>
+    -->
+    <!-- <application android:allowBackup="true" > -->
+
+
+    <!--
+        <activity android:name="com.codeshane.anddev.SimpleGradientPickerActivity"
+			android:label="@string/app_name"
+			android:icon="@drawable/ic_launcher"
+			android:theme="@style/AppTheme" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    -->
+    <!--
+        <receiver
+            android:name="com.codeshane.appwidget.SwidgetProvider"
+            android:enabled="true"
+            android:exported="false"
+            android:icon="@drawable/ic_launcher"
+            android:label="SwidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/swidget_metadata" />
+        </receiver>
+        <receiver
+            android:name="com.codeshane.appwidget.SwidgetReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.SWIDGET_UPDATE" />
+            </intent-filter>
+        </receiver>
+    </application>
+    -->
+    <!--
+    <protected-broadcast
+		android:name="SwidgetBroadcast"
+	/>
+    -->
+
+</manifest>

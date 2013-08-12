@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/widget_margin"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center_vertical"
+    android:id="@+id/swidget_root_id"
+    android:background="@drawable/appwidget_bg_alpha_80"
+    ><!-- android:background="@drawable/appwidget_bg_alpha_80"
+    
+    android:src="@drawable/appwidget_bg_alpha_80"-->
+	<ImageView
+	    android:src="@drawable/appwidget_bg_alpha_80"
+	    android:scaleType="fitXY"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:id="@+id/swidget_imageview"
+		
+	/><!-- android:background="?android:attr/selectableItemBackground" sdk11+ -->
+	
+    <TextView
+         android:id="@+id/swidget_textview"
+         style="style/TextShadow"
+         
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_gravity="center"
+         android:layout_margin="4dip"
+         android:gravity="center_horizontal|center_vertical"
+         />  <!---->
+     <Chronometer
+		android:id="@+id/swidget_chronometer" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		
+	/>
+	 <!-- <include android:id="@+id/cell1" layout="@layout/" /> -->
+	 
+</LinearLayout>

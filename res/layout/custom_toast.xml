@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- ./res/layout/custom_toast.xml  -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@android:id/background"
-    android:orientation="horizontal"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:padding="10dp"
     android:background="@drawable/toast_border"
-    >
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
     <TextView
         android:id="@android:id/message"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:textColor="#ffefefef"
-        android:gravity="center" 
+        android:gravity="center"
         android:text=""
-	/>
+        android:textColor="#ffefefef" />
+
 </LinearLayout>
